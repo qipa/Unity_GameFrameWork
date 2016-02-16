@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5BD814DC-C2C0-95D7-958D-B33E69A0F8A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.2.3f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_2_3;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_2_3;UNITY_5_2;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_REFLECTION_BUFFERS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel">
+      <HintPath>Assets\Plugins\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\Plugins\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Plugins\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>Assets\Plugins\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity.Design.PluralizationServices">
+      <HintPath>Assets\Plugins\System.Data.Entity.Design.PluralizationServices.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\_Plug-InComponents\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\_Plug-InComponents\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\_Plug-InComponents\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets\_Plug-InComponents\DOTween\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="MTools">
+      <HintPath>Assets\_Scripts\Tools\_DLL\MTools.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity5Demo.CSharp.Plugins.csproj">
+      <Project>{042DE7B0-7F8C-C967-7CD0-CF8DDB02C883}</Project>
+      <Name>Unity5Demo.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\CodeWriters\CSharpCodeWriter.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\CodeWriters\JavaCodeWriter.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\CodeWriters\TypeScriptCodeWriter.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\CodeWriters\VisualBasicCodeWriter.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\FieldInfo.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\ICodeWriter.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\IJsonClassGeneratorConfig.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\JsonClassGenerator.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\JsonClassHelper.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\JsonType.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\JsonTypeEnum.cs" />
+    <Compile Include="Assets\_Plug-InComponents\JsonCSharpClassGeneratorLib\Properties\Resources.Designer.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\CanvasExampleCS.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\EventListenersScattered.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\EventListenersScatteredCS.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\ExampleCSharp.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\ExampleCameraShake.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\ExampleRigidbodyCS.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\ExampleSpline.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\ExampleSpline2d.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\MenuExampleCSharp.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\MenuSimpleCSharp.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\PunchTester.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\TestingAlphaFade.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\TestingEverything.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\TestingPauseResume.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\TestingRotateAround.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\TestingUniqueId.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\TutorialPresentation.cs" />
+    <Compile Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Scripts\TutorialPresentationFinished.cs" />
+    <Compile Include="Assets\_Plug-InComponents\PoolManagerExampleFiles\Scripts\CreationExample.cs" />
+    <Compile Include="Assets\_Plug-InComponents\PoolManagerExampleFiles\Scripts\OnCreatedDelegateExample.cs" />
+    <Compile Include="Assets\_Plug-InComponents\PoolManagerExampleFiles\Scripts\OnSpawnedExample.cs" />
+    <Compile Include="Assets\_Plug-InComponents\PoolManagerExampleFiles\Scripts\ParticleWaitTest.cs" />
+    <Compile Include="Assets\_Plug-InComponents\PoolManagerExampleFiles\Scripts\ReallySimpleAudioSpawner.cs" />
+    <Compile Include="Assets\_Plug-InComponents\PoolManagerExampleFiles\Scripts\ReallySimpleParticleSpawner.cs" />
+    <Compile Include="Assets\_Plug-InComponents\PoolManagerExampleFiles\Scripts\SimpleSpawner.cs" />
+    <Compile Include="Assets\_Plug-InComponents\output\csharp\HeroInfo.cs" />
+    <Compile Include="Assets\_Plug-InComponents\output\csharp\PlayerInfo.cs" />
+    <Compile Include="Assets\_Prefabs\TabMenu\TabControl.cs" />
+    <Compile Include="Assets\_Scripts\AssetBundles\AssetBundleLoadOperation.cs" />
+    <Compile Include="Assets\_Scripts\AssetBundles\AssetBundleManager.cs" />
+    <Compile Include="Assets\_Scripts\AssetBundles\AssetBundlesMenus.cs" />
+    <Compile Include="Assets\_Scripts\AssetBundles\BuildScript.cs" />
+    <Compile Include="Assets\_Scripts\AssetBundles\Utility.cs" />
+    <Compile Include="Assets\_Scripts\Common\Common.cs" />
+    <Compile Include="Assets\_Scripts\DelegateManager.cs" />
+    <Compile Include="Assets\_Scripts\IOHelper.cs" />
+    <Compile Include="Assets\_Scripts\Instance.cs" />
+    <Compile Include="Assets\_Scripts\Model\Model.cs" />
+    <Compile Include="Assets\_Scripts\PathString.cs" />
+    <Compile Include="Assets\_Scripts\PlayerMoveControl.cs" />
+    <Compile Include="Assets\_Scripts\SpinWithMouse.cs" />
+    <Compile Include="Assets\_Scripts\Test.cs" />
+    <Compile Include="Assets\_Scripts\Tools\BMFontReader\BMFont.cs" />
+    <Compile Include="Assets\_Scripts\Tools\BMFontReader\BMFontEditor.cs" />
+    <Compile Include="Assets\_Scripts\Tools\BMFontReader\BMFontReader.cs" />
+    <Compile Include="Assets\_Scripts\Tools\BMFontReader\BMGlyph.cs" />
+    <Compile Include="Assets\_Scripts\Tools\BMFontReader\BetterList.cs" />
+    <Compile Include="Assets\_Scripts\Tools\BMFontReader\ByteReader.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Const\ColorConst.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Const\GameConst.cs" />
+    <Compile Include="Assets\_Scripts\Tools\CoroutinesManager.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Cothread.cs" />
+    <Compile Include="Assets\_Scripts\Tools\EventTriggerListener.cs" />
+    <Compile Include="Assets\_Scripts\Tools\GameFlag.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Helper\BtnItemClass.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Helper\CustomTweenAlpha.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Helper\CustomTweener.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Helper\Finder.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Helper\PaginationPanel.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Helper\RandomHelper.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Helper\TimerManager.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Helper\UISelectList.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Helper\Utils.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Localization\LocalizedText.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Localization\MLocalization.cs" />
+    <Compile Include="Assets\_Scripts\Tools\MTool.cs" />
+    <Compile Include="Assets\_Scripts\Tools\Singleton.cs" />
+    <Compile Include="Assets\_Scripts\Tools\TextureImporterSetting\ChangeTextureImportSettings.cs" />
+    <Compile Include="Assets\_Scripts\Tools\TextureImporterSetting\TextureImportSetting.cs" />
+    <Compile Include="Assets\_Scripts\Tools\TextureImporterSetting\TextureImporterManager.cs" />
+    <Compile Include="Assets\_Scripts\Tools\TiledImage.cs" />
+    <Compile Include="Assets\_Scripts\Tools\TypeWriterEffect.cs" />
+    <Compile Include="Assets\_Scripts\Tools\UguiJoystack\UguiJoystack.cs" />
+    <Compile Include="Assets\_Scripts\Tools\UnitySingleton.cs" />
+    <Compile Include="Assets\_Scripts\Tools\WaitForEndOfAnimation.cs" />
+    <Compile Include="Assets\_Scripts\Tools\WordFilter.cs" />
+    <Compile Include="Assets\_Scripts\TweenTest.cs" />
+    <Compile Include="Assets\_Scripts\UI\Battle\UIBattle.cs" />
+    <Compile Include="Assets\_Scripts\UI\GameManager\AudioManager.cs" />
+    <Compile Include="Assets\_Scripts\UI\GameManager\GameData.cs" />
+    <Compile Include="Assets\_Scripts\UI\GameManager\GameLoading.cs" />
+    <Compile Include="Assets\_Scripts\UI\GameManager\GameMain.cs" />
+    <Compile Include="Assets\_Scripts\UI\Knapsack\UIActerPage.cs" />
+    <Compile Include="Assets\_Scripts\UI\Knapsack\UIKnapsackAndActerPage.cs" />
+    <Compile Include="Assets\_Scripts\UI\Knapsack\UIKnapsackItem.cs" />
+    <Compile Include="Assets\_Scripts\UI\Knapsack\UIKnapsackPage.cs" />
+    <Compile Include="Assets\_Scripts\UI\Notice\Message\MessageBoxManager.cs" />
+    <Compile Include="Assets\_Scripts\UI\Notice\Message\MessageBoxPanel.cs" />
+    <Compile Include="Assets\_Scripts\UI\Notice\UINotice.cs" />
+    <Compile Include="Assets\_Scripts\UI\Scene\UILoadingPage.cs" />
+    <Compile Include="Assets\_Scripts\UI\Scene\UIMainPage.cs" />
+    <Compile Include="Assets\_Scripts\UI\Setting\UISettingPage.cs" />
+    <Compile Include="Assets\_Scripts\UI\Skill\UDSkill.cs" />
+    <Compile Include="Assets\_Scripts\UI\Skill\UISkillItem.cs" />
+    <Compile Include="Assets\_Scripts\UI\Skill\UISkillPage.cs" />
+    <Compile Include="Assets\_Scripts\UI\UIAnnouncementPage.cs" />
+    <Compile Include="Assets\_Scripts\UI\UIBase\TTUIBind.cs" />
+    <Compile Include="Assets\_Scripts\UI\UIBase\TTUIPage.cs" />
+    <Compile Include="Assets\_Scripts\UI\UIBase\TTUIRoot.cs" />
+    <Compile Include="Assets\_Scripts\UI\UITopBar.cs" />
+    <Compile Include="Assets\_Scripts\UIFirstAnima.cs" />
+    <Compile Include="Assets\_Scripts\UIGridCircle.cs" />
+    <Compile Include="Assets\_Scripts\UIMainMenus.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Plugins\PathologicalGames\readme.txt" />
+    <None Include="Assets\Resources\Localization\Chinese.json.txt" />
+    <None Include="Assets\Resources\Localization\English.json.txt" />
+    <None Include="Assets\Resources\Txt\FilterString.txt" />
+    <None Include="Assets\Resources\Txt\name.txt" />
+    <None Include="Assets\_Fonts\myFont.fnt" />
+    <None Include="Assets\_Plug-InComponents\DOTween\DOTween.XML" />
+    <None Include="Assets\_Plug-InComponents\DOTween\DOTween43.xml" />
+    <None Include="Assets\_Plug-InComponents\DOTween\DOTween46.xml" />
+    <None Include="Assets\_Plug-InComponents\DOTween\DOTween50.xml" />
+    <None Include="Assets\_Plug-InComponents\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\_Plug-InComponents\DOTween\readme.txt" />
+    <None Include="Assets\_Plug-InComponents\LeanTween\LeanTween-ReadMe.txt" />
+    <None Include="Assets\_Plug-InComponents\LeanTween\LeanTweenExamples\Shader\2dUnlitWithFade.shader" />
+    <None Include="Assets\_Scenes\MiniMap\MaskShader.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+</Project>

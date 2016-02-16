@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3bdb77cb44b224f49bd6daa1aa0e17e7
+timeCreated: 1447211000
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 16
+  forceTextureCase: 3
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames: []
+  customCharacters: "0123456789\u4ED9"
+  fontRenderingMode: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
